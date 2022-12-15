@@ -1,0 +1,236 @@
+/* Fonts Added Roboto */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700;900&display=swap');
+
+/* Defulat Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1a064e;
+    background: #fff;
+    font-size: 14px;
+}
+
+.mtb-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mtb-80 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/*      Color
+    -> #1a064e 
+    -> #e9543e
+    -> #00fe84
+*/
+
+/* Theme Style */
+
+/* TOP HEADER Style */
+.top_header {
+    border-bottom: 1px solid #c5c5c5;
+    height: 30px;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.left_top_header .top_contact {
+    display: flex;
+}
+
+.left_top_header .top_contact .top_phone,
+.left_top_header .top_contact .top_email {
+    width: 30%;
+    cursor: pointer;
+}
+
+.left_top_header .top_contact .top_phone i,
+.left_top_header .top_contact .top_email i {
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.left_top_header .top_contact .top_phone p,
+.left_top_header .top_contact .top_email p {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.right_top_header .top-social a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #1a064e;
+    font-size: 14px;
+    transition: color .25s ease-in-out;
+}
+
+.right_top_header .top-social a:hover{
+    color: #e9543e;
+}
+
+/* END TOP HEADER Style */
+
+/* navBar */
+.navBar {
+    padding-top: 10px;
+}
+
+.navBar .navbar-nav {}
+
+.navBar .navbar .navbar-brand {}
+
+.navBar .navbar .navbar-brand img {
+    width: 150px;
+    margin-left: -33px;
+}
+
+.navBar .navbar .navbar-nav {
+    /* margin-right: 30px; */
+}
+
+.navBar .navbar .navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navBar .navbar .navbar-nav .nav-item a {
+    color: #1a064e;
+    font-weight: 600;
+    transition: color .25s ease-in-out;
+}
+
+.navBar .navbar .navbar-nav .nav-item a:hover {
+    color: #e9543e;
+}
+
+.nav-left {
+    margin-right: -13px;
+}
+
+.nav-left i,
+a {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #1a064e;
+    font-size: 16px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    font-weight: 400;
+    transition: color .25s ease-in-out;
+}
+
+.nav-left a:hover {
+    color: #e9543e;
+}
+
+.nav-left a.btn {
+    background: #1a064e;
+    color: #fff;
+    padding: 10px 40px;
+    transition: background .25s ease-in-out;
+}
+
+.nav-left a.btn:hover {
+    background: #e9543e;
+}
+
+/* End navBar */
+
+/* Hero Area */
+
+.hero-area {
+    display: flex;
+    align-items: center;
+}
+
+.hero-area .hero-left {}
+
+.hero-area .hero-left h5 {
+    font-weight: 700;
+    color: #e9543e;
+}
+
+.hero-area .hero-left h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.hero-area .hero-left p {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.hero-area .hero-left .hero-btn {
+    display: flex;
+    align-items: center;
+    margin-left: -20px;
+    margin-bottom: 40px;
+}
+
+.hero-area .hero-left .hero-btn a {
+    text-decoration: none;
+    padding: 20px 70px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid #c5c5c586;
+    transition: all .25s ease-in-out;
+    margin-right: 15px;
+}
+
+.hero-area .hero-left .hero-btn .active {
+    background: #e9543e;
+    color: #fff;
+    border: 2px solid transparent;
+}
+.hero-area .hero-left .hero-btn a:hover {
+    background: #e9543e;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+.hero-area .hero-left .hero-more {
+    
+    cursor: pointer;
+}
+
+.hero-area .hero-left .hero-more .more-item:hover i {
+    color: #e9543e;
+    transition: all .25s ease-in-out;
+}
+
+.hero-area .hero-left .hero-more .more-item i {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.hero-area .hero-left .hero-more .more-item p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.hero-right img {
+    width: 100%;
+    border-radius: 20px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+/* End Hero Area */
